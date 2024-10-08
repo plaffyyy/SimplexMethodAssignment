@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1725741a-a495-4827-a1db-093f5b7c8864" name="Changes" comment="feat(init commit): initiate project">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Picker.java" afterDir="false" />
+    <list default="true" id="1725741a-a495-4827-a1db-093f5b7c8864" name="Changes" comment="feat(project structure): create project structure and dependencies">
+      <change afterPath="$PROJECT_DIR$/src/main/java/optimisation/assignment/domain/Input.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/optimisation/assignment/domain/Output.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/optimisation/assignment/domain/SimplexResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Algorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/optimisation/assignment/domain/Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/optimisation/assignment/domain/Algorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/optimisation/assignment/domain/Picker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/optimisation/assignment/domain/Picker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/optimisation/assignment/domain/SimplexSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/optimisation/assignment/domain/SimplexSimple.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,32 +29,67 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2n6p4or2tcerzoOQFrG4n4DKxrH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.SimplexSimple.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.SimplexMethodAssignment [--version...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.SimplexMethodAssignment [clean,verify].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;SimplexMethod&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/plaffyyy/OptimizationCodes/SimplexMethodAssignment&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="optimisation.assignment.domain" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn --version compile" />
+      <command value="mvn clean verify" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Picker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="optimisation.assignment.domain.Picker" />
+      <module name="SimplexMethodAssignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="optimisation.assignment.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Picker" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -68,7 +106,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728303192919</updated>
-      <workItem from="1728303193974" duration="1891000" />
+      <workItem from="1728303193974" duration="2874000" />
+      <workItem from="1728318535470" duration="20000" />
+      <workItem from="1728318596762" duration="877000" />
+      <workItem from="1728387657427" duration="8000" />
+      <workItem from="1728388951524" duration="3781000" />
+      <workItem from="1728395235396" duration="437000" />
     </task>
     <task id="LOCAL-00001" summary="feat(init commit): initiate project">
       <option name="closed" value="true" />
@@ -78,14 +121,34 @@
       <option name="project" value="LOCAL" />
       <updated>1728303251464</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat(project structure): create project structure and dependencies">
+      <option name="closed" value="true" />
+      <created>1728306175423</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728306175423</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat(init commit): initiate project" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(init commit): initiate project" />
+    <MESSAGE value="feat(project structure): create project structure and dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(project structure): create project structure and dependencies" />
   </component>
 </project>
