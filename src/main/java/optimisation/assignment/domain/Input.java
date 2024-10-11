@@ -7,10 +7,12 @@ public final class Input {
     private double[] c;
     private BufferedReader reader;
     private PrintStream out;
+
     public Input(InputStream in, PrintStream out) {
         this.reader = new BufferedReader(new InputStreamReader(in, StandardCharsets.UTF_8));
         this.out = out;
     }
+
     public double[] inputObjectiveFunction() throws IOException {
         out.print("A vector of coefficients of objective function - C: ");
         String[] coeffStrings = reader.readLine().split(" ");

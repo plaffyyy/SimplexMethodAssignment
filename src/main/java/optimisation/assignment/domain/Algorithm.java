@@ -4,11 +4,13 @@ public final class Algorithm {
     private double[] c;
     private double[][] a;
     private double[] b;
+
     public Algorithm(double[] c, double[][] a, double[] b) {
         this.c = c;
         this.a = a;
         this.b = b;
     }
+
     public SimplexResult simplex(double[][] a, double[] c, double[] b) {
         int m = a.length;
         int n = a[0].length;
